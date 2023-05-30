@@ -83,7 +83,7 @@ void dijkstra(int graph[V][V], int s, float avgDist[V])
     for(int v=0 ; v<V; v++){
         ttl_dist += dist[v];
     }
-    avgDist[s] = ttl_dist/V; 
+    avgDist[s] = ttl_dist/5.0; 
 }
 
 
